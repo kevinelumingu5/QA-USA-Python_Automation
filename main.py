@@ -40,14 +40,14 @@ class TestUrbanRoutes:
         print("function created for test_order_blanket_and_handkerchiefs")
         pass
 
-    def test_order_2_ice_creams(self)
+    def test_order_2_ice_creams(self):
         # Add in S8
         for i in range(2):
             # Add in S
             print("function created for test_order_2_ice_creams")
             pass
 
-    def test_car_search_model_appears(self)
+    def test_car_search_model_appears(self):
         # Add in S8
         print("function created for test_car_search_model_appears")
         pass
