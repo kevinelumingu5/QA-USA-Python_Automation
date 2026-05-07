@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 import time
 import helpers
 
-
 class UrbanRoutesPage:
 
     FROM_LOCATOR = (By.ID, 'from')

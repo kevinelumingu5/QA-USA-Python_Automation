@@ -38,7 +38,7 @@ class TestUrbanRoutes:
         time.sleep(2)
         urban_test.select_supportive()
         time.sleep(2)
-        urban_test.get_supportive() == "Suppotive"
+        assert urban_test.get_supportive() == "Supportive"
 
     def test_fill_phone_number(self):
         self.driver.get(data.URBAN_ROUTES_URL)
