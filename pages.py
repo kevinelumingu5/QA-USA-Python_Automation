@@ -55,8 +55,6 @@ class UrbanRoutesPage:
 
     def select_supportive(self):
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(self.CALL_TAXI_LOCATOR)).click()
-        self.driver.find_element(*self.CALL_TAXI_LOCATOR).click()
-        self.driver.find_element(*self.SUPPORTIVE_BUTTON_LOCATOR).click()
 
     def get_supportive(self):
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(self.CALL_TAXI_LOCATOR))
